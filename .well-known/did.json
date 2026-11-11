@@ -1,1 +1,22 @@
-
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:racpaw1.github.io",
+  "assertionMethod": [
+    {
+      "id": "did:web:racpaw1.github.io#a610c235f440af0e8af554380630725b607896c4eff592b049167675febf2254",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:racpaw1.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "772ZMhbgjL0mo4mpXYuRvavgohfWZXCQMCFvBPaa6zI=",
+        "y": "V6zCTwUz_rOL-QPdf2cgHzXmLo47UZk0Pb-mwfn6jX8=",
+        "kid": "a610c235f440af0e8af554380630725b607896c4eff592b049167675febf2254",
+        "alg": "ES256"
+      }
+    }
+  ]
+}
